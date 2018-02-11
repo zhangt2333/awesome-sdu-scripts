@@ -3,10 +3,10 @@
     
     
     
-## 1.绩点查询器（命令行）   [进入项目](GPA_spider)    [直接下载]( https://github.com/zhangt2333/About_SDU/releases/download/v1.0/GPA_spider.exe) 
+## 1.绩点查询器（命令行）   [进入项目](https://github.com/zhangt2333/About_SDU/GPA_spider)    [直接下载]( https://github.com/zhangt2333/About_SDU/releases/download/v1.0/GPA_spider.exe) 
 	查询SDU使用者学期成绩，并根据输入的学年学期进行加权绩点的计算。
 	（简易、核心、实现基本功能，使用体验较差）
-![](GPA_spider/效果图.png)
+![效果图](https://github.com/zhangt2333/About_SDU/blob/master/GPA_spider/效果图.png)
 
 
 
