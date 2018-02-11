@@ -1,0 +1,1 @@
+pyinstaller -F GPA_spider.py
