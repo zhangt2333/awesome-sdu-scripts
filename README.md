@@ -8,7 +8,10 @@
 	（简易、核心、实现基本功能，使用体验较差）
 ![效果图](GPA_spider/效果图.png)
 
-
+## 2.绩点查询器（GUI）   [进入项目](https://github.com/zhangt2333/About_SDU/tree/master/GPA_spider(GUI))    
+	查询SDU使用者学期成绩，并根据输入的学年学期进行加权绩点的计算。
+	（使用体验一般，但终归实现了GUI，学习了一波pyqt5）
+![效果图](GPA_spider(GUI)/效果图.jpg)
 
 
 #### License
