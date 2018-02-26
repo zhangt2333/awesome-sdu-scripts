@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UI.ui'
+#
+# Created by: PyQt5 UI code generator 5.10
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(586, 426)
+        MainWindow.setMinimumSize(QtCore.QSize(586, 426))
+        MainWindow.setMaximumSize(QtCore.QSize(586, 426))
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.table_scores = QtWidgets.QTableView(self.centralwidget)
+        self.table_scores.setGeometry(QtCore.QRect(21, 77, 541, 301))
+        self.table_scores.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.table_scores.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.table_scores.setLineWidth(0)
+        self.table_scores.setMidLineWidth(0)
+        self.table_scores.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.table_scores.setSortingEnabled(False)
+        self.table_scores.setObjectName("table_scores")
+        self.table_scores.horizontalHeader().setDefaultSectionSize(60)
+        self.table_scores.horizontalHeader().setHighlightSections(True)
+        self.table_scores.horizontalHeader().setMinimumSectionSize(10)
+        self.table_scores.horizontalHeader().setStretchLastSection(False)
+        self.Button_getscores = QtWidgets.QPushButton(self.centralwidget)
+        self.Button_getscores.setEnabled(False)
+        self.Button_getscores.setGeometry(QtCore.QRect(60, 390, 91, 23))
+        self.Button_getscores.setObjectName("Button_getscores")
+        self.Button_calGPA = QtWidgets.QPushButton(self.centralwidget)
+        self.Button_calGPA.setEnabled(False)
+        self.Button_calGPA.setGeometry(QtCore.QRect(430, 390, 91, 23))
+        self.Button_calGPA.setObjectName("Button_calGPA")
+        self.label_nowuser = QtWidgets.QLabel(self.centralwidget)
+        self.label_nowuser.setGeometry(QtCore.QRect(40, 17, 501, 16))
+        self.label_nowuser.setText("")
+        self.label_nowuser.setObjectName("label_nowuser")
+        self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(38, 40, 511, 25))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.label = QtWidgets.QLabel(self.layoutWidget)
+        self.label.setObjectName("label")
+        self.horizontalLayout.addWidget(self.label)
+        self.input_id = QtWidgets.QLineEdit(self.layoutWidget)
+        self.input_id.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.input_id.setText("")
+        self.input_id.setMaxLength(12)
+        self.input_id.setReadOnly(False)
+        self.input_id.setObjectName("input_id")
+        self.horizontalLayout.addWidget(self.input_id)
+        self.label_2 = QtWidgets.QLabel(self.layoutWidget)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout.addWidget(self.label_2)
+        self.input_passwd = QtWidgets.QLineEdit(self.layoutWidget)
+        self.input_passwd.setText("")
+        self.input_passwd.setMaxLength(30)
+        self.input_passwd.setEchoMode(QtWidgets.QLineEdit.PasswordEchoOnEdit)
+        self.input_passwd.setObjectName("input_passwd")
+        self.horizontalLayout.addWidget(self.input_passwd)
+        self.Button_login = QtWidgets.QPushButton(self.layoutWidget)
+        self.Button_login.setObjectName("Button_login")
+        self.horizontalLayout.addWidget(self.Button_login)
+        self.label_GPA = QtWidgets.QLabel(self.centralwidget)
+        self.label_GPA.setGeometry(QtCore.QRect(156, 393, 270, 20))
+        self.label_GPA.setText("")
+        self.label_GPA.setObjectName("label_GPA")
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+        self.Button_login.clicked.connect(MainWindow.login)
+        self.Button_getscores.clicked.connect(MainWindow.getscores)
+        self.Button_calGPA.clicked.connect(MainWindow.calGPA)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "SDU_GPA_spider(GUI)"))
+        self.Button_getscores.setText(_translate("MainWindow", "获 取 成 绩"))
+        self.Button_calGPA.setText(_translate("MainWindow", "计 算 绩 点"))
+        self.label.setText(_translate("MainWindow", "SDU_学号："))
+        self.label_2.setText(_translate("MainWindow", "SDU_教务密码："))
+        self.Button_login.setText(_translate("MainWindow", "登  录"))
+
