@@ -1,0 +1,349 @@
+Request URL:http://bkjwxk.sdu.edu.cn/f/xk/xs/yxkc
+Request Method:POST
+Status Code:200 OK
+Remote Address:202.194.15.19:80
+Response Headers
+view source
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Language:zh-CN
+Content-Type:text/html; charset=UTF-8
+Date:Wed, 04 Jul 2018 04:38:03 GMT
+Server:Tengine/2.1.2
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:0
+Cookie:j_username=略; j_password=略; JSESSIONID=略; sduxk=略; index=略; j_username=略; j_password=略
+Host:bkjwxk.sdu.edu.cn
+Origin:http://bkjwxk.sdu.edu.cn
+Referer:http://bkjwxk.sdu.edu.cn/f/common/main
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+X-Requested-With:XMLHttpRequest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 标题 -->
+<div class="portlet-title ">
+	<div class="caption">
+		<i class="icon-reorder"></i>&nbsp;已选课程(<strong><font
+			color=#3a87ad>共11门；共23.5学分；必修18.5学分；限选0.0学分</font></strong>)
+	</div>
+	<div class="actions">
+		
+		<div class="btn-group">
+			<a class="btn red" href="javascript:void(0)" id="delButtonId"
+				onclick="beforeDelete()"> <i class="icon-trash"></i>
+				退&nbsp;&nbsp;&nbsp;&nbsp;选
+			</a>
+		</div>
+
+	</div>
+</div>
+<!-- 表体 -->
+<div class="portlet-body ">
+	<form id="yxDataTableForm" name="yxDataTableForm">
+		<input id="aoDataInputId" name="aoData" type="hidden" />
+		<table class="table table-striped table-bordered table-hover"
+			id="yXDataTableId">
+			
+
+			
+				<tr>
+					<th style="text-align: center;" width="5%"></th>
+
+					<th>课程号</th>
+					<th>课程名称</th>
+					<th>课序号</th>
+					<th>学分</th>
+					<th>上课时间</th>
+					<th>任课教师</th>
+					<th>课程属性</th>
+					<th>开课学院</th>
+					<th width="6%">中签标志</th>
+					<th width="6%">操作</th>
+
+				</tr>
+				
+					<tr class="sd00614780 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd00614780|900" />
+							</td>
+						<td>sd00614780</td>
+						<td>音乐表演与乐理入门(通选)</td>
+						<td>900</td>
+						<td>1</td>
+						<td>1-8周上:5-4 (青岛校区振声苑E101)</td>
+						<td>袁伟4</td>
+						<td>任选</td>
+						<td>艺术学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01331460 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01331460|1" />
+							</td>
+						<td>sd01331460</td>
+						<td>计算机系统原理</td>
+						<td>1</td>
+						<td>3.5</td>
+						<td>1-17周上:2-4 ,3-3 (青岛校区振声苑E106)</td>
+						<td>蔡晓军3</td>
+						<td>必修</td>
+						<td>计算机学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01331830 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01331830|0" />
+							</td>
+						<td>sd01331830</td>
+						<td>概率与统计</td>
+						<td>0</td>
+						<td>3.5</td>
+						<td>1-14周上:3-1 (青岛校区振声苑E106);1-14周上:5-2 (青岛校区振声苑E102)</td>
+						<td>姜海涛3</td>
+						<td>必修</td>
+						<td>计算机学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01331840 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01331840|0" />
+							</td>
+						<td>sd01331840</td>
+						<td>数据结构与算法</td>
+						<td>0</td>
+						<td>5</td>
+						<td>1-17周上:1-3 ,3-2 ,4-1 (青岛校区振声苑W102)</td>
+						<td>王晓琳3</td>
+						<td>必修</td>
+						<td>计算机学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01331850 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01331850|0" />
+							</td>
+						<td>sd01331850</td>
+						<td>数据库系统</td>
+						<td>0</td>
+						<td>4.5</td>
+						<td>1-10周上:4-2 (青岛校区振声苑N313);1-17周上:1-1 ,2-2 (青岛校区振声苑N313)</td>
+						<td>彭朝晖3</td>
+						<td>必修</td>
+						<td>计算机学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01331990 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01331990|0" />
+							</td>
+						<td>sd01331990</td>
+						<td>认知实习</td>
+						<td>0</td>
+						<td>1</td>
+						<td>5-8周上:6-2 ,6-4 </td>
+						<td>栾峻峰3</td>
+						<td>必修</td>
+						<td>计算机学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd01412720 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd01412720|900" />
+							</td>
+						<td>sd01412720</td>
+						<td>细胞DNA损伤与日常保健知识(通选)</td>
+						<td>900</td>
+						<td>1</td>
+						<td>1-8周上:2-5 (青岛校区振声苑E308)</td>
+						<td>盛多红3</td>
+						<td>任选</td>
+						<td>生命学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd02910650 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd02910650|391" />
+							</td>
+						<td>sd02910650</td>
+						<td>体育(3)</td>
+						<td>391</td>
+						<td>1</td>
+						<td>1-17周上:2-3 (青岛校区体育排球3-1)</td>
+						<td>徐亮3</td>
+						<td>必修</td>
+						<td>体育学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd03111670 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd03111670|900" />
+							</td>
+						<td>sd03111670</td>
+						<td>海外留学与生存技能(通选)</td>
+						<td>900</td>
+						<td>1</td>
+						<td>9-16周上:3-4 (青岛校区振声苑E201)</td>
+						<td>金莉3</td>
+						<td>任选</td>
+						<td>大外部</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd07510240 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd07510240|600" />
+							</td>
+						<td>sd07510240</td>
+						<td>社会史研究导论(社科-尔雅)</td>
+						<td>600</td>
+						<td>2</td>
+						<td>3-13周上:7-5 </td>
+						<td></td>
+						<td>任选</td>
+						<td>本科生院</td>
+						<td><span class='label label-success'>中</span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+					<tr class="sd09010090 yxline">
+						<td style="text-align: center;">
+								<input type="checkbox" class="checkboxes" name="kchkxh"
+									value="sd09010090|324" />
+							</td>
+						<td>sd09010090</td>
+						<td>形势与政策(3)</td>
+						<td>324</td>
+						<td>0</td>
+						<td>6,8,10,12周上:4-5 (青岛校区振声苑W106)</td>
+						<td>韩春岫</td>
+						<td>必修</td>
+						<td>马克思学院</td>
+						<td><span class='label label-success'></span></td>
+						<td align="center"> 
+								无需抽签
+							</td>
+					</tr>
+				
+			
+
+			
+		</table>
+	</form>
+</div>
+
+<script type="text/javascript" src="/res/js/sdu/xk/xs/wsxk.js"></script>
+<script type="text/javaScript">
+	function beforeDelete() {
+		MyApp.tableConfirm('/b/xk/xs/delete', $("#yxDataTableForm"),
+				"您确认要退选所选课程吗？", function() {
+					initYxContent();
+				});
+	}
+
+	function beforeCq(kch, kxh) {
+		MyApp.showConfirm("question", "确认执行抽签操作吗？", function() {
+			var url = "/b/xk/xs/cq/" + kch + "/" + kxh;
+			MyApp.post(url, function(data) {
+				if (data.result == "success") {
+					MyApp.showMessage("succeed", data.msg, function() {
+						initYxContent();
+					});
+				} else {
+					MyApp.showMessage("error", data.msg);
+				}
+			});
+		});
+	}
+	function beforeSubmit() {
+		MyApp.showConfirm("question", "确认当前已选的课程吗?", function() {
+			MyApp.post('/b/xk/xs/submit', function(data) {
+				if (data.result == "success") {
+					MyApp.showMessage("succeed", data.msg, function() {
+						initYxContent();
+					});
+				} else {
+					MyApp.showMessage("error", data.msg);
+				}
+			});
+		});
+	}
+	//行单击-已选
+	$(".yxline").click(
+			function(event) {
+				var selectCheckbox = $(this).children('td').eq(0).children();
+				if (event.target.nodeName == 'TD') {
+					selectCheckbox.is(':checked') == true ? selectCheckbox
+							.attr("checked", false) : selectCheckbox.attr(
+							"checked", true);
+				}
+			});
+</script>

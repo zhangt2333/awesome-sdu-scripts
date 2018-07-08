@@ -1,0 +1,32 @@
+Request URL:http://bkjwxk.sdu.edu.cn/
+Request Method:GET
+Status Code:200 OK
+Remote Address:202.194.15.19:80
+Response Headers
+view source
+
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Language:zh-CN
+Content-Type:text/html; charset=UTF-8
+Date:Sun, 08 Jul 2018 12:32:46 GMT
+Server:Tengine/2.1.2
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+
+
+Request Headers
+
+view source
+
+
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:JSESSIONID=ÂÔ; sduxk=ÂÔ; index=0
+Host:bkjwxk.sdu.edu.cn
+Referer:http://www.bkjx.sdu.edu.cn/
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36

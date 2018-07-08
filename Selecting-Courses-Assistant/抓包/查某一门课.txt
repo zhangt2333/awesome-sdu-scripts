@@ -1,0 +1,42 @@
+Request URL:http://bkjwxk.sdu.edu.cn/b/xk/xs/kcsearch
+Request Method:POST
+Status Code:200 OK
+Remote Address:202.194.15.19:80
+Response Headers
+view source
+Connection:keep-alive
+Content-Type:application/json; charset=UTF-8
+Date:Sun, 08 Jul 2018 13:38:21 GMT
+Server:Tengine/2.1.2
+Transfer-Encoding:chunked
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:60
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+Cookie:JSESSIONID=略; sduxk=略; index=1; j_username=略; j_password=略
+Host:bkjwxk.sdu.edu.cn
+Origin:http://bkjwxk.sdu.edu.cn
+Referer:http://bkjwxk.sdu.edu.cn/f/common/main
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+X-Requested-With:XMLHttpRequest
+Form Data
+view source
+view URL encoded
+type:kc
+currentPage:1
+kch:sd02910060
+jsh:
+skxq:
+skjc:
+kkxsh:
+
+
+
+
+
+
+{"result":"success","msg":null,"object":{"perPageNum":30,"totalRows":1,"totalPages":1,"currentPage":1,"prePage":0,"nextPage":2,"startIndex":0,"lastIndex":1,"resultList":[{"KCH":"sd02910060","KXH":"900","KCM":"传统体育养生(通选)","XF":1,"KCLB":"18","KCLBMC":"通识选修课","KKXSH":"29","KKXSM":"体育学院","KKXSJC":"体育学院","JSH":"200799015526","JSM":"田玫3","SJDD":"1-8周上:6-2 (青岛校区振声苑E204)","NUM":1,"kyl":3}]}}

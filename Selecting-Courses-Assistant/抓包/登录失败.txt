@@ -1,0 +1,36 @@
+﻿Request URL:http://bkjwxk.sdu.edu.cn/b/ajaxLogin
+Request Method:POST
+Status Code:200 OK
+Remote Address:202.194.15.19:80
+Response Headers
+view source
+Connection:keep-alive
+Content-Type:application/json; charset=UTF-8
+Date:Sun, 08 Jul 2018 12:30:18 GMT
+Server:Tengine/2.1.2
+Set-Cookie:sduxk=7e89363858493a3b0b9d1f874bf08307;Path=/
+Transfer-Encoding:chunked
+Request Headers
+view source
+
+
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:67
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+Cookie:j_username=略; j_password=略; JSESSIONID=略; sduxk=略; index=0
+Host:bkjwxk.sdu.edu.cn
+Origin:http://bkjwxk.sdu.edu.cn
+Referer:http://bkjwxk.sdu.edu.cn/
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+X-Requested-With:XMLHttpRequest
+
+
+Form Data
+view source
+view URL encoded
+
+j_username:学号
+j_password:密码的MD5
