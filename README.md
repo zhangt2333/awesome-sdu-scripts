@@ -12,15 +12,15 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 
 
 
-# 1  绩点查询器 `GPA_spider`
+# 1  绩点查询器 `GPA-Spider`
 
 *   [Download the binary for Windows-64]( https://github.com/zhangt2333/SDU-Funny-Scripts/releases/download/v1.0/GPA_spider.exe) 
 *   查询 SDU 学生学期成绩，并根据输入的学年学期进行加权绩点的计算
 *   简易、核心、实现基本功能，使用体验较差
 
-![](GPA_spider/pic1.png)
+![](GPA-Spider/pic1.png)
 
-# 2  绩点查询器(GUI) `GPA_spider(GUI)`
+# 2  绩点查询器(GUI) `GPA-Spider-GUI`
 
 *   查询 SDU 学生学期成绩，并根据输入的学年学期进行加权绩点的计算
 *   使用体验一般，但实现了 GUI，学习了一波 pyqt5

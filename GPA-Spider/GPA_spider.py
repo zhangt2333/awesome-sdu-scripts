@@ -3,7 +3,7 @@
 # Copyright 2018 ZhangT. All Rights Reserved.
 # Author: ZhangT
 # Author-Github: github.com/zhangt2333
-# GPA_spider.py 2018/2/10 20:31
+# GPA-Spider.py 2018/2/10 20:31
 import json
 import os
 from config import generateMD5
