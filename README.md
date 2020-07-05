@@ -3,6 +3,15 @@
 
 Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-Assistant, and so on. Weclome !​ :smile:
 
+
+
+TODO:
+
+-   [ ] 接入统一登录
+-   [ ] ... 其他好玩的 spider 开发
+
+
+
 # 目录
 
 *   绩点查询器
@@ -25,7 +34,7 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 *   查询 SDU 学生学期成绩，并根据输入的学年学期进行加权绩点的计算
 *   使用体验一般，但实现了 GUI，学习了一波 pyqt5
 
-![](GPA_spider(GUI)/pic1.jpg)
+![](GPA-Spider-GUI/pic1.jpg)
 
 # 3  选课助手 `Selecting-Courses-Assistant`
 
@@ -36,6 +45,16 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 附上 demo：
 
 ![](Selecting-Courses-Assistant/pic1.png)
+
+
+
+# 4  教评助手 `Teaching-Evaluation-Assistant`
+
+解决期末查成绩前的拦路虎 —— 反人类的教评提交交互！
+
+*   实现所有课程一键全部满分好评（需要特殊打分去教务系统教评一次即可）
+
+![](Teaching-Evaluation-Assistant/pic1.png)
 
 
 
