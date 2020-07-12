@@ -68,3 +68,11 @@ def Align_CHstr(str, format_spec):
     """工具函数：处理一个中英文混杂str的填充对齐"""
     format_spec = "{0:{1}" + format_spec + "}"
     return format_spec.format(strB2Q(str), chr(12288))
+
+def compare_xnxq(xnxq1, xnxq2):
+    """返回 xnxq1 > xnxq2"""
+    tmp = xnxq1.split('-')
+    xnxq1 = tmp[2] + tmp[1]*10 + tmp[0]*10000
+    tmp = xnxq2.split('-')
+    xnxq2 = tmp[2] + tmp[1]*10 + tmp[0]*10000
+    return xnxq1 > xnxq2

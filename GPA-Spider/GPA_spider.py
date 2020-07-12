@@ -88,7 +88,7 @@ def parse_json(score_json):
     sub_aaData = score_json['object']['aaData']
     for item in sub_aaData:
         yield {
-            "学年学期": item['xnxq'],
+            "学年学期": item['xnxq'] if 'xnxq' in item else '空',
             "课程名": item['kcm'],
             # "教师名": item['jsm'],
             "课程属性": item['kcsx'],
@@ -96,8 +96,8 @@ def parse_json(score_json):
             "最终成绩": item['kscjView'],
             "评分": item['wfzdj'],
             "绩点": item['wfzjd'],
-            "期末成绩": item['qmcj'],
-            "平时成绩": item['pscj'],
+             # "期末成绩": item['qmcj'],
+            # "平时成绩": item['pscj'],
         }
 
 
@@ -109,6 +109,13 @@ def get_scores():
         scores.append(score)
     for score in parse_json(score_past_json):
         scores.append(score)
+    max_xnxq = None
+    for score in scores:
+        if score['学年学期'] != '空' and (not max_xnxq or config.compare_xnxq(score['学年学期'], max_xnxq)):
+            max_xnxq = score['学年学期']
+    for score in scores:
+        if score['学年学期'] == '空':
+            score['学年学期'] = max_xnxq
     scores.sort(key=lambda x: x['学分'], reverse=True)
     return scores
 
@@ -142,9 +149,9 @@ def show_scores(scores):
     for score in scores:
         print(format(score["学年学期"], "<13") + config.Align_CHstr(score["课程名"], "<" + str(maxLen)) + " " +
               format(score["课程属性"], "^4") + " " + format(score["学分"], "<3") + "   " +
-              format(str(score["最终成绩"]), "<3") + "   " + format(score["评分"], "<2") + "  " +
-              format(str(score["绩点"]), "^4") + "  " + format(str(score["期末成绩"]), "^5") + " " +
-              format(str(score["平时成绩"]), "^7"))
+              format(str(score["最终成绩"]), "<3") + "   " + format(str(score["评分"]), "<2") + "  " +
+              format(str(score["绩点"]), "^4")) # + "  " + format(str(score["期末成绩"]), "^5") + " " +
+             # format(str(score["平时成绩"]), "^7"))
 
 
 def cal_GPA(scores, xnxq):
@@ -152,7 +159,8 @@ def cal_GPA(scores, xnxq):
     GPA = 0.0
     sum_credits = 0.0
     for score in scores:
-        if score["学年学期"] == xnxq:
+        if (score["学年学期"] == xnxq or xnxq == 'all') and score['课程属性'] in ['必修', '限选']:
+            print(score)
             sum_credits += float(score["学分"])
             GPA += float(score["学分"]) * float(score["绩点"])
     if sum_credits != 0:
@@ -192,11 +200,10 @@ def main():
     scores = get_scores()
     show_scores(scores)
     # 计算绩点
-    xnxq = input("您现在可以选择输入需要计算绩点的学年学期（完全匹配）：")
+    xnxq = input("您现在可以选择输入需要计算绩点的学年学期（完全匹配，计算全部则输入'all'）：")
     GPA = cal_GPA(scores, xnxq)
     print(GPA)
 
 
 if __name__ == "__main__":
     main()
-    os.system('pause')
