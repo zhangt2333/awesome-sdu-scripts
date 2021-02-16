@@ -7,6 +7,7 @@
 
 from spider import *
 
+
 def main():
     username = input('请输入学号: ')
     password = input('请输入密码: ')

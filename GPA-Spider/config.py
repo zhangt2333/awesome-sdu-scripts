@@ -7,8 +7,6 @@
 
 # 包含一些通用常量和工具函数
 
-import hashlib
-
 HEADERS = {"Host": "bkjws.sdu.edu.cn",
            "Connection": "keep-alive",
            "Accept": "*/*",
@@ -17,8 +15,6 @@ HEADERS = {"Host": "bkjws.sdu.edu.cn",
            "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
            "Accept-Language": "zh-CN,zh;q=0.8"}
-
-JSESSIONID = ''
 
 # 获取成绩时候的post数据
 aoData = 'aoData=%5B%7B%22name%22%3A%22sEcho%22%2C%22value%22%3A1%7D%2C%7B%22' \
@@ -42,13 +38,6 @@ aoData = 'aoData=%5B%7B%22name%22%3A%22sEcho%22%2C%22value%22%3A1%7D%2C%7B%22' \
     'bSortable_5%22%2C%22value%22%3Afalse%7D%2C%7B%22name%22%3A%22bSortab' \
     'le_6%22%2C%22value%22%3Afalse%7D%2C%7B%22name%22%3A%22bSortable_7%22' \
     '%2C%22value%22%3Afalse%7D%5D'
-
-
-def generateMD5(str):
-    """工具函数：md5编码"""
-    hl = hashlib.md5()
-    hl.update(str.encode(encoding='utf-8'))
-    return hl.hexdigest()
 
 
 def strB2Q(ustring):

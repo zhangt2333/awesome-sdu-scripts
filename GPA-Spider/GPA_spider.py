@@ -5,40 +5,24 @@
 # Author-Github: github.com/zhangt2333
 # GPA-Spider.py 2018/2/10 20:31
 import json
-import os
-from config import generateMD5
+import sys
+
 import config
 import requests
 from requests.exceptions import RequestException
-import sys
 
-
-def set_Cookie():
-    """统一程序中发送requests请求的所有cookie，即加到headers里面"""
-    try:
-        response = requests.get('http://bkjwxk.sdu.edu.cn/f/common/main')
-        if response.status_code == 200:
-            config.JSESSIONID = response.request._cookies._cookies
-            config.JSESSIONID = str(config.JSESSIONID['bkjwxk.sdu.edu.cn']['/']['JSESSIONID'])[19:40]
-            config.HEADERS["Cookie"] = "JSESSIONID=" + config.JSESSIONID
-            return True
-        else:
-            return False
-    except RequestException:
-        return False
+from uniform_login import uniform_login_spider
 
 
 def login(username, password):
     """登录，返回一个response"""
-    data = "j_username=" + username + "&j_password=" + generateMD5(password)
     try:
-        response = requests.post('http://bkjws.sdu.edu.cn/b/ajaxLogin', data=data, headers=config.HEADERS)
-        if response.status_code == 200:
-            return response.text
+        JSESSIONID = uniform_login_spider.login(username, password, 'http://bkjws.sdu.edu.cn/f/j_spring_security_thauth_roaming_entry')
+        config.HEADERS["Cookie"] = "JSESSIONID=" + JSESSIONID
+        return '"success"'
+    except Exception as e:
+        print(e)
         return None
-    except RequestException:
-        return None
-
 
 def get_profile():
     """获得使用者姓名"""
@@ -171,12 +155,6 @@ def cal_GPA(scores, xnxq):
 
 def main():
     print("--------欢迎您使用GPA_spider!!!--------")
-    # 配置cookie
-    if set_Cookie():
-        print("配置cookie成功")
-    else:
-        print("配置cookie失败！！请重新检查网络后启动，若确认为程序问题请向作者报告此bug")
-        sys.exit()
     # 输入
     id = input("请输入SDU学号：")
     passwd = input("请输入选课密码：")
