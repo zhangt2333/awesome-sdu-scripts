@@ -56,7 +56,10 @@ TODO:
 
 ![](Teaching-Evaluation-Assistant/pic1.png)
 
+# 5  青岛校区电量查询器 `Electricity-Spider`
 
+* 夜晚开黑，停电，充电后来电已是明早！ 突然停电，台式机数据丢失！
+* 青岛校区电量查询，将以上情形一网打尽！
 
 # License
 
