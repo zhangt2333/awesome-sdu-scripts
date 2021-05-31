@@ -1,7 +1,8 @@
-# SDU-Funny-Scripts
+# Awesome-SDU-Script
+
 与 SDU 日常相关的一些爬虫/脚本，如绩点查询器、抢课助手、教评助手、青岛校区电量查询器等，欢迎研究和使用:smile:
 
-Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-Assistant, and so on. Weclome !​ :smile:
+Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant, and so on. Welcome! :smile:
 
 
 # 目录
@@ -9,6 +10,7 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 * [Latest](#latest)
    * [选课脚本 sduContentionCourse](#选课脚本-sducontentioncourse)
    * [青岛校区电量查询器 Electricity-Spider](#青岛校区电量查询器-electricity-spider)
+   * [青岛校区宿舍低电自动提醒 actions-SduElectricityReminder](#青岛校区宿舍低电自动提醒-actions-SduElectricityReminder)
 * [Archived](#archived)
    * [绩点查询器 GPA-Spider](#绩点查询器-gpa-spider)
    * [绩点查询器(GUI) GPA-Spider-GUI](#绩点查询器gui-gpa-spider-gui)
@@ -29,6 +31,10 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 
 * 夜晚开黑，停电，充电后来电已是明早！ 突然停电，台式机数据丢失！
 * 青岛校区电量查询，将以上情形一网打尽！
+
+## 青岛校区宿舍低电自动提醒 `actions-SduElectricityReminder`
+* 自动查 [SDU 青岛校区] 宿舍电量，低于阈值则邮件提醒
+* 不需要自己购买服务器，也不需要自己配置服务器，真的 Serverless !!
 
 # Archived
 

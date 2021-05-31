@@ -1,3 +1,6 @@
 [submodule "sduContentionCourse"]
 	path = sduContentionCourse
 	url = https://github.com/yqylh/sduContentionCourse
+[submodule "actions-SduElectricityReminder"]
+	path = actions-SduElectricityReminder
+	url = https://github.com/zhangt2333/actions-SduElectricityReminder
