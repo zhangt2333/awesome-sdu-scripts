@@ -16,6 +16,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
    * [绩点查询器(GUI) GPA-Spider-GUI](#绩点查询器gui-gpa-spider-gui)
    * [选课助手 Selecting-Courses-Assistant](#选课助手-selecting-courses-assistant)
    * [教评助手 Teaching-Evaluation-Assistant](#教评助手-teaching-evaluation-assistant)
+* [Contribution](#Contribution)
 * [License](#license)
 
 
@@ -86,6 +87,11 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 
 </details>
 
+# Contribution
+
+本仓库旨在收集使得 SDU 生活更美好的一些脚本，如果有意被收录到本仓库，请提交 Issue 或 PR 参与贡献！
+
+Looking forward to your contribution!
 
 # License
 
