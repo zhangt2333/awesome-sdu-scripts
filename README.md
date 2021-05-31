@@ -37,39 +37,47 @@ Some spiders/scripts about the life in SDU, like GPA-Spider, Selecting-Courses-A
 
 <details>
 <summary>由于教务系统被升级替换，该脚本 archived!，点击查看描述</summary>
-  *   [Download the binary for Windows-64]( https://github.com/zhangt2333/SDU-Funny-Scripts/releases/download/v1.0/GPA_spider.exe) 
+ 
+  * [Download the binary for Windows-64]( https://github.com/zhangt2333/SDU-Funny-Scripts/releases/download/v1.0/GPA_spider.exe) 
   * 查询 SDU 学生学期成绩，并根据输入的学年学期进行加权绩点的计算
   * 简易、核心、实现基本功能，使用体验较差
   ![](GPA-Spider/pic1.png)
+  
 </details>
 
 ## 绩点查询器(GUI) `GPA-Spider-GUI`
 
 <details>
 <summary>由于教务系统被升级替换，该脚本 archived!，点击查看描述</summary>
+
   * 查询 SDU 学生学期成绩，并根据输入的学年学期进行加权绩点的计算
   * 使用体验一般，但实现了 GUI，学习了一波 pyqt5
-![](GPA-Spider-GUI/pic1.jpg)
+  ![](GPA-Spider-GUI/pic1.jpg)
+
 </details>
 
 ## 选课助手 `Selecting-Courses-Assistant`
 
 <details>
 <summary>由于教务系统被升级替换，该脚本 archived!，点击查看描述</summary>
+
   * 规范的教务选课系统 API，代码有详细的注释
   * ~~少量的改动 (增加具体的课程号和循环)，可以进化成 `抢课助手`~~
   * 为了校园和平，没有 GUI 版，有能力改动她的人理应要有相应的价值观
   附上 demo：
   ![](Selecting-Courses-Assistant/pic1.png)
+
 </details>
 
 ## 教评助手 `Teaching-Evaluation-Assistant`
 
 <details>
 <summary>由于教务系统被升级替换，该脚本 archived!，点击查看旧描述</summary>
+
   * 解决期末查成绩前的拦路虎 —— 反人类的教评提交交互！
   * 实现所有课程一键全部满分好评（需要特殊打分去教务系统教评一次即可）
   ![](Teaching-Evaluation-Assistant/pic1.png)
+
 </details>
 
 
