@@ -12,6 +12,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
    * [青岛校区电量查询器 Electricity-Spider](#青岛校区电量查询器-electricity-spider)
    * [青岛校区电量查询器 (golang) sdu-qd-electricity-bill](#青岛校区电量查询器-golang-sdu-qd-electricity-bill)
    * [青岛校区宿舍低电自动提醒 actions-SduElectricityReminder](#青岛校区宿舍低电自动提醒-actions-sduelectricityreminder)
+   * [青岛校区校园网认证 sdunetd](#青岛校区校园网认证-sdunetd)
 * [Archived](#archived)
    * [绩点查询器 GPA-Spider](#绩点查询器-gpa-spider)
    * [绩点查询器(GUI) GPA-Spider-GUI](#绩点查询器gui-gpa-spider-gui)
@@ -41,6 +42,10 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 ## 青岛校区宿舍低电自动提醒 `actions-SduElectricityReminder`
 * 自动查 [SDU 青岛校区] 宿舍电量，低于阈值则邮件提醒
 * 不需要自己购买服务器，也不需要自己配置服务器，真的 Serverless !!
+
+## 青岛校区校园网认证 `sdunetd`
+
+* 供无图形化界面的 Linux 系统进行校园网认证
 
 # Archived
 

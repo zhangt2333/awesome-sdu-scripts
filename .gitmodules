@@ -7,3 +7,6 @@
 [submodule "sdu-qd-electricity-bill"]
 	path = sdu-qd-electricity-bill
 	url = https://github.com/SadPencil/sdu-qd-electricity-bill/
+[submodule "sdunetd"]
+	path = sdunetd
+	url = https://github.com/SadPencil/sdunetd
