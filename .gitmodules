@@ -10,3 +10,6 @@
 [submodule "sdunetd"]
 	path = sdunetd
 	url = https://github.com/SadPencil/sdunetd
+[submodule "sdu_report_song"]
+	path = sdu_report_song
+	url = https://github.com/Naylenv/sdu_report_song.git
