@@ -9,12 +9,14 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 
 * [目录](#目录)
 * [Latest](#latest)
+   * [图书馆座位预约脚本 sdu-lib-seat](#图书馆座位预约脚本-sdu-lib-seat)
    * [选课脚本 sduContentionCourse](#选课脚本-sducontentioncourse)
    * [青岛校区电量查询器 Electricity-Spider](#青岛校区电量查询器-electricity-spider)
    * [青岛校区电量查询器 (golang) sdu-qd-electricity-bill](#青岛校区电量查询器-golang-sdu-qd-electricity-bill)
    * [青岛校区宿舍低电自动提醒 actions-SduElectricityReminder](#青岛校区宿舍低电自动提醒-actions-sduelectricityreminder)
    * [青岛校区校园网认证 sdunetd](#青岛校区校园网认证-sdunetd)
    * [实验报告 LaTex 模板 sdu_report_song](#实验报告-latex-模板-sdu_report_song)
+   
 * [Archived](#archived)
    * [绩点查询器 GPA-Spider](#绩点查询器-gpa-spider)
    * [绩点查询器(GUI) GPA-Spider-GUI](#绩点查询器gui-gpa-spider-gui)
@@ -23,8 +25,12 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 * [Contribution](#contribution)
 * [License](#license)
 
-
 # Latest
+
+## 图书馆座位预约脚本 `sdu-lib-seat`
+
+- 山东大学各校区图书馆座位预约
+- Docker部署/集成crontab-ui图形界面/提供测试环境/支持自动化定时预约
 
 ## 选课脚本 `sduContentionCourse`
 
