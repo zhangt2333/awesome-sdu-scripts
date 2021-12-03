@@ -13,3 +13,6 @@
 [submodule "sdu_report_song"]
 	path = sdu_report_song
 	url = https://github.com/Naylenv/sdu_report_song.git
+[submodule "sdu-lib-seat"]
+	path = sdu-lib-seat
+	url = https://github.com/PTYin/sdu-lib-seat.git
