@@ -1,6 +1,6 @@
 # Awesome-SDU-Script
 
-与 SDU 日常相关的一些爬虫/脚本，如绩点查询器、抢课助手、教评助手、青岛校区电量查询器等，欢迎研究和使用:smile:
+与 SDU 日常相关的一些爬虫/脚本，如绩点查询器、选课助手、图书馆预约助手、教评助手、青岛校区电量查询、校园网认证脚本、实验报告 LaTeX 模板等，欢迎研究和使用:smile:
 
 Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant, and so on. Welcome! :smile:
 
