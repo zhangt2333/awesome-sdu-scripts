@@ -13,3 +13,6 @@
 [submodule "sdu-lib-seat"]
 	path = sdu-lib-seat
 	url = https://github.com/PTYin/sdu-lib-seat.git
+[submodule "SDU-QD-Electricity-Query-Script"]
+	path = SDU-QD-Electricity-Query-Script
+	url = https://github.com/Dregen-Yor/SDU-QD-Electricity-Query-Script
