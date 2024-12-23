@@ -11,9 +11,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 * [Latest](#latest)
    * [图书馆座位预约脚本 sdu-lib-seat](#图书馆座位预约脚本-sdu-lib-seat)
    * [选课脚本 sduContentionCourse](#选课脚本-sducontentioncourse)
-   * [青岛校区电量查询器 Electricity-Spider](#青岛校区电量查询器-electricity-spider)
-   * [青岛校区电量查询器 (golang) sdu-qd-electricity-bill](#青岛校区电量查询器-golang-sdu-qd-electricity-bill)
-   * [青岛校区宿舍低电自动提醒 actions-SduElectricityReminder](#青岛校区宿舍低电自动提醒-actions-sduelectricityreminder)
+   * [青岛校区电量查询器 SDU-QD-Electricity-Query-Script](#青岛校区电量查询器-SDU-QD-Electricity-Query-Script)
    * [青岛校区校园网认证 sdunetd](#青岛校区校园网认证-sdunetd)
    * [实验报告 LaTex 模板 sdu_report_song](#实验报告-latex-模板-sdu_report_song)
    
@@ -22,6 +20,9 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
    * [绩点查询器(GUI) GPA-Spider-GUI](#绩点查询器gui-gpa-spider-gui)
    * [选课助手 Selecting-Courses-Assistant](#选课助手-selecting-courses-assistant)
    * [教评助手 Teaching-Evaluation-Assistant](#教评助手-teaching-evaluation-assistant)
+   * [青岛校区电量查询器 Electricity-Spider](#青岛校区电量查询器-electricity-spider)
+   * [青岛校区电量查询器 (golang) sdu-qd-electricity-bill](#青岛校区电量查询器-golang-sdu-qd-electricity-bill)
+   * [青岛校区宿舍低电自动提醒 actions-SduElectricityReminder](#青岛校区宿舍低电自动提醒-actions-sduelectricityreminder)
 * [Contribution](#contribution)
 * [License](#license)
 
@@ -37,19 +38,11 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 * SDU 选课脚本
 * 开箱即用，基于浏览器直接运行，不需要下载脚本或其他文件
 
+## 青岛校区电量查询器 `SDU-QD-Electricity-Query-Script`
+* 还在为山大V卡通 2.0 更新后原脚本失效而苦恼？
+* 一键解决原脚本失效问题！
 
-## 青岛校区电量查询器 `Electricity-Spider`
 
-* 夜晚开黑，停电，充电后来电已是明早！ 突然停电，台式机数据丢失！
-* 青岛校区电量查询，将以上情形一网打尽！
-
-## 青岛校区电量查询器 (golang) `sdu-qd-electricity-bill`
-
-* 青岛校区电量查询器，Go 语言编写！！
-
-## 青岛校区宿舍低电自动提醒 `actions-SduElectricityReminder`
-* 自动查 [SDU 青岛校区] 宿舍电量，低于阈值则邮件提醒
-* 不需要自己购买服务器，也不需要自己配置服务器，真的 Serverless !!
 
 ## 青岛校区校园网认证 `sdunetd`
 
@@ -61,6 +54,38 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 ![sdu_report_song](https://github.com/Naylenv/sdu_report_song/raw/master/figures/demo.png)
 
 # Archived
+
+## 青岛校区电量查询器 `Electricity-Spider`
+
+<details>
+<summary>山大V卡通2.0更新后，原API被废弃，该脚本 archived!，点击查看旧描述</summary>
+
+  * 夜晚开黑，停电，充电后来电已是明早！ 突然停电，台式机数据丢失！
+  * 青岛校区电量查询，将以上情形一网打尽！
+  * 山大V卡通2.0更新后，原API被废弃
+
+</details>
+
+
+## 青岛校区电量查询器 (golang) `sdu-qd-electricity-bill`
+
+<details>
+<summary>山大V卡通2.0更新后，原API被废弃，该脚本 archived!，点击查看旧描述</summary>
+
+  * 青岛校区电量查询器，Go 语言编写！！
+
+</details>
+
+## 青岛校区宿舍低电自动提醒 `actions-SduElectricityReminder`
+
+<details>
+<summary>山大V卡通2.0更新后，原API被废弃，该脚本 archived!，点击查看旧描述</summary>
+
+  * 自动查 [SDU 青岛校区] 宿舍电量，低于阈值则邮件提醒
+  * 不需要自己购买服务器，也不需要自己配置服务器，真的 Serverless !!
+
+</details>
+
 
 
 ## 绩点查询器 `GPA-Spider`
