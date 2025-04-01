@@ -56,7 +56,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 ## 实验报告 Typst 模板 `sdu-exp-report`
 
 * Typst 模板用于实验报告，使用更简单的语法，更快的速度，获取更好的效果。
-![sdu-exp-report](sdu-exp-report/example/figures/main.png)
+![sdu-exp-report](https://github.com/Dregen-Yor/sdu-exp-report/blob/main/example/figures/main.png)
 
 # Archived
 
