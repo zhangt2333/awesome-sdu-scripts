@@ -53,6 +53,11 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 * LaTeX 模板用于实验报告(*~~song的意思为宋体~~*)
 ![sdu_report_song](https://github.com/Naylenv/sdu_report_song/raw/master/figures/demo.png)
 
+## 实验报告 Typst 模板 `sdu-exp-report`
+
+* Typst 模板用于实验报告，使用更简单的语法，更快的速度，获取更好的效果。
+![sdu-exp-report](sdu-exp-report/example/figures/main.png)
+
 # Archived
 
 ## 青岛校区电量查询器 `Electricity-Spider`
