@@ -14,6 +14,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
    * [青岛校区电量查询器 SDU-QD-Electricity-Query-Script](#青岛校区电量查询器-SDU-QD-Electricity-Query-Script)
    * [青岛校区校园网认证 sdunetd](#青岛校区校园网认证-sdunetd)
    * [实验报告 LaTex 模板 sdu_report_song](#实验报告-latex-模板-sdu_report_song)
+   * [实验报告 Typst 模板 sdu-exp-report](#实验报告-typst-模板-sdu-exp-report)
    
 * [Archived](#archived)
    * [绩点查询器 GPA-Spider](#绩点查询器-gpa-spider)
