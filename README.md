@@ -14,6 +14,7 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
    * [青岛校区电量查询器 SDU-QD-Electricity-Query-Script](#青岛校区电量查询器-SDU-QD-Electricity-Query-Script)
    * [青岛校区校园网认证 sdunetd](#青岛校区校园网认证-sdunetd)
    * [实验报告 LaTex 模板 sdu_report_song](#实验报告-latex-模板-sdu_report_song)
+   * [实验报告 Typst 模板 sdu-exp-report](#实验报告-typst-模板-sdu-exp-report)
    
 * [Archived](#archived)
    * [绩点查询器 GPA-Spider](#绩点查询器-gpa-spider)
@@ -52,6 +53,11 @@ Some scripts about the life at SDU, like GPA-Spider, Selecting-Courses-Assistant
 
 * LaTeX 模板用于实验报告(*~~song的意思为宋体~~*)
 ![sdu_report_song](https://github.com/Naylenv/sdu_report_song/raw/master/figures/demo.png)
+
+## 实验报告 Typst 模板 `sdu-exp-report`
+
+* Typst 模板用于实验报告，使用更简单的语法，更快的速度，获取更好的效果。
+![sdu-exp-report](https://github.com/Dregen-Yor/sdu-exp-report/blob/main/example/figures/main.png)
 
 # Archived
 

@@ -16,3 +16,6 @@
 [submodule "SDU-QD-Electricity-Query-Script"]
 	path = SDU-QD-Electricity-Query-Script
 	url = https://github.com/Dregen-Yor/SDU-QD-Electricity-Query-Script
+[submodule "sdu-exp-report"]
+	path = sdu-exp-report
+	url = https://github.com/Dregen-Yor/sdu-exp-report
